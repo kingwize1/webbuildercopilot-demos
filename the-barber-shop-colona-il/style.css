@@ -1,0 +1,26 @@
+/* Design direction: Quad Cities riverfront: Mississippi blue + brass, barber stripe, sturdy serif */
+:root{--a:#17324d;--c:#c8a24a;--bg:#f5f3ee;--d:#a8322d;--f:Georgia, serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:#1d1d1d;font:17px/1.6 system-ui,-apple-system,'Segoe UI',sans-serif}
+h1,h2,h3{font-family:var(--f);line-height:1.15}a{color:var(--a)}:focus-visible{outline:3px solid var(--d);outline-offset:3px}
+.skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:9}
+.util{background:var(--a);color:#fff;display:flex;justify-content:space-between;align-items:center;padding:10px 5vw;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-family:var(--f);font-weight:700;font-size:1.1rem}.brand img{width:46px;height:46px}
+.util nav a{color:#fff;margin-left:18px;text-decoration:none;font-weight:600}.util .call{background:var(--c);color:var(--a);padding:8px 14px;border-radius:6px}
+.hero{background:linear-gradient(115deg,var(--a) 55%,color-mix(in srgb,var(--a) 70%,var(--c)) 55%);color:#fff;padding:70px 5vw 90px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-60px;bottom:-60px;width:320px;height:320px;background:url(mark.svg) center/contain no-repeat;opacity:.12}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--c);font-weight:700;font-size:.8rem}
+.hero h1{font-size:clamp(2.1rem,6vw,4rem);margin:.2em 0;max-width:16ch}.hero p{font-size:1.2rem;max-width:40ch}
+.proof{display:inline-block;border:2px solid var(--c);color:var(--c);padding:6px 14px;font-weight:700;margin:6px 0 10px}
+.btn{display:inline-block;padding:14px 24px;margin:10px 10px 0 0;background:var(--c);color:var(--a);font-weight:800;text-decoration:none;border-radius:4px}
+.btn.alt{background:#fff}.btn.ghost{background:transparent;color:#fff;border:2px solid #ffffff88}
+section{padding:60px 5vw}h2{font-size:2rem;margin:0 0 24px;color:var(--a)}h2:after{content:"";display:block;width:60px;height:5px;background:var(--c);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.svc{background:#fff;border-top:6px solid var(--a);padding:24px;box-shadow:0 6px 20px #0000000f}.svc h3{margin:0 0 6px}.svc a{font-weight:700;text-decoration:none}
+.notes{margin-top:20px;font-weight:600}.trust{background:#fff}
+figure{margin:0;padding:22px;border-left:6px solid var(--c);background:var(--bg)}blockquote{margin:0;font-family:var(--f);font-size:1.15rem;font-style:italic}figcaption{color:#555;font-size:.85rem;margin-top:8px}
+.visit{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}table{width:100%;border-collapse:collapse}th,td{padding:8px 0;border-bottom:1px solid #0001;text-align:left}td{text-align:right}
+.visit .btn.ghost{color:var(--a);border-color:var(--a)}
+footer{background:var(--a);color:#ffffffcc;text-align:center;padding:30px 5vw 100px;font-size:.9rem}footer img{width:36px;vertical-align:middle}
+.dock{display:none}@media(max-width:720px){.util nav a:not(.call){display:none}.dock{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--a);z-index:5;box-shadow:0 -4px 14px #0003}
+.dock a{flex:1;text-align:center;padding:14px 4px;color:#fff;font-weight:800;text-decoration:none}.dock a:first-child{background:var(--c);color:var(--a)}.hero{padding:46px 6vw 64px}.hero:after{display:none}}
