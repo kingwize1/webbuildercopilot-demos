@@ -13,6 +13,7 @@
 | Hours | not verified |
 | Rating/proof | Nextdoor Neighborhood Favorite (2022–2025) |
 | Social | none found |
+| Logo | none found publicly; drawn SVG mark used (fallback) |
 | Real photos | none used (no rights); drawn SVG mark |
 | Source | https://nextdoor.com/pages/all-in-one-cleaninghandyman-services-red-oak-tx/ |
 | Avoid publishing | prices, years in business, guarantees (unverified) |

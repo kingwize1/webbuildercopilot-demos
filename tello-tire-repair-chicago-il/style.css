@@ -5,10 +5,11 @@ body{margin:0;background:var(--bg);color:#1d1d1d;font:17px/1.6 system-ui,-apple-
 h1,h2,h3{font-family:var(--f);line-height:1.15}a{color:var(--a)}:focus-visible{outline:3px solid var(--d);outline-offset:3px}
 .skip{position:absolute;left:-999px}.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:9}
 .util{background:var(--a);color:#fff;display:flex;justify-content:space-between;align-items:center;padding:10px 5vw;gap:12px;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-family:var(--f);font-weight:700;font-size:1.1rem}.brand img{width:46px;height:46px}
+.brand{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none;font-family:var(--f);font-weight:700;font-size:1.1rem}.brand img{width:46px;height:46px}.brand img.real{width:auto;max-width:150px;object-fit:contain;background:#fff;border-radius:8px;padding:3px}
+.hero-logo{display:block;max-height:130px;max-width:min(320px,80vw);background:#fff;border-radius:12px;padding:8px;margin:0 0 18px;box-shadow:0 6px 20px #0003}footer img.real{width:auto;height:36px;background:#fff;border-radius:6px;padding:2px}
 .util nav a{color:#fff;margin-left:18px;text-decoration:none;font-weight:600}.util .call{background:var(--c);color:var(--a);padding:8px 14px;border-radius:6px}
 .hero{background:linear-gradient(115deg,var(--a) 55%,color-mix(in srgb,var(--a) 70%,var(--c)) 55%);color:#fff;padding:70px 5vw 90px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;right:-60px;bottom:-60px;width:320px;height:320px;background:url(mark.svg) center/contain no-repeat;opacity:.12}
+.hero:after{content:"";position:absolute;right:-60px;bottom:-60px;width:320px;height:320px;background:url(mark.svg) center/contain no-repeat;opacity:.12;display:none}
 .eyebrow{text-transform:uppercase;letter-spacing:.18em;color:var(--c);font-weight:700;font-size:.8rem}
 .hero h1{font-size:clamp(2.1rem,6vw,4rem);margin:.2em 0;max-width:16ch}.hero p{font-size:1.2rem;max-width:40ch}
 .proof{display:inline-block;border:2px solid var(--c);color:var(--c);padding:6px 14px;font-weight:700;margin:6px 0 10px}

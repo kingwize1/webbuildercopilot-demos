@@ -13,6 +13,7 @@
 | Hours | Mon–Fri 7 AM–5 PM; Saturday 9 AM–1 PM; Sunday Closed |
 | Rating/proof | 4.7★ from 75 reviews |
 | Social | https://facebook.com/432496700230590 |
+| Logo | none found publicly; drawn SVG mark used (fallback) |
 | Real photos | none used (no rights); drawn SVG mark |
 | Source | https://exa.ai/library/place/631nhtfg1wd |
 | Avoid publishing | prices, years in business, guarantees (unverified) |

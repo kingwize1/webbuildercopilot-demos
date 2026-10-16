@@ -13,6 +13,7 @@
 | Hours | not verified |
 | Rating/proof | 5.0★ from 11 reviews |
 | Social | https://facebook.com/2307712916153815 |
+| Logo | none found publicly; drawn SVG mark used (fallback) |
 | Real photos | none used (no rights); drawn SVG mark |
 | Source | https://exa.ai/library/place/mbmwgh1pdbs |
 | Avoid publishing | prices, years in business, guarantees (unverified) |

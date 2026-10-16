@@ -13,6 +13,7 @@
 | Hours | Mon–Wed 8 AM–6 PM; Thursday 8 AM–5 PM; Friday 8 AM–6 PM; Saturday 9 AM–2 PM; Sunday 10 AM–2 PM |
 | Rating/proof | 4.6★ from 20 reviews |
 | Social | https://facebook.com/1599884260258929 |
-| Real photos | none used (no rights); drawn SVG mark |
+| Logo | real logo: Facebook page profile picture (facebook.com/1599884260258929), a flyer containing the round P&A logo [https://graph.facebook.com/1599884260258929/picture?width=720&height=720]; cropped the round logo out of the flyer (bottom edge slightly clipped in the source) |
+| Real photos | none used (no rights); business logo from its public listing |
 | Source | https://exa.ai/library/place/26lbvg2nv5s |
 | Avoid publishing | prices, years in business, guarantees (unverified) |
